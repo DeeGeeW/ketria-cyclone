@@ -23,7 +23,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_03_21_182437) do
     t.integer "card_quantity"
     t.string "rarity"
     t.string "set_name"
-    
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
